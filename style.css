@@ -1,0 +1,30 @@
+body {
+  width: 96vw;
+  height: 96vh;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+
+.container {
+  border: 2px solid black;
+  height: 500px;
+  margin: auto;
+  width: 500px;
+}
+
+.container > div {
+  float: left;
+  box-sizing: border-box;
+}
+
+.grid-items {
+  height: 25px;
+  width: auto;
+  border: 1px solid black;
+}
+
+.sketch {
+  padding: 20px;
+  text-align: center;
+}
